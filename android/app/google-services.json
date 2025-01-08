@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "91811535717",
+    "project_id": "quickbites-ec2f8",
+    "storage_bucket": "quickbites-ec2f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91811535717:android:4aca6b5759e3e4dbb15f8c",
+        "android_client_info": {
+          "package_name": "com.example.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerjrP1BENGM85XP0qwykogPP4bZyDPyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91811535717:android:29a3a879f43265e7b15f8c",
+        "android_client_info": {
+          "package_name": "com.qb.qb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAerjrP1BENGM85XP0qwykogPP4bZyDPyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
