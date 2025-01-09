@@ -35,7 +35,7 @@ class QuickBitesApp extends StatelessWidget {
     );
   }
 
-  // Define routes in a separate method for better readability
+
   Map<String, WidgetBuilder> _buildRoutes() {
     return {
       '/splash': (context) => SplashScreen(),

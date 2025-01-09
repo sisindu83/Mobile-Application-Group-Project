@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:path/path.dart' as p;
 import 'package:sqflite/sqflite.dart';
-import 'package:cached_network_image/cached_network_image.dart'; // Import the cached_network_image package
+import 'package:cached_network_image/cached_network_image.dart'; 
 import 'profile.dart';
 import 'login.dart';
 import 'View_Recipe_Screen.dart';
