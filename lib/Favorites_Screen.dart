@@ -16,7 +16,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
 
   List<Map<String, dynamic>> favoriteRecipes = [];
   User? currentUser;
-  int _currentIndex = 2; // Set the index for the Favorites tab
+  int _currentIndex = 2; 
 
   @override
   void initState() {
@@ -43,7 +43,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
     if (currentUser != null) {
       final doc = await _firestore
           .collection('favorites')
-          .doc(currentUser!.email) // Using email as the document ID
+          .doc(currentUser!.email) 
           .get();
       final recipeIds = List<String>.from(doc.data()?['recipes'] ?? []);
 
